@@ -7,14 +7,14 @@ public class Latte extends Beverage
 
 	public  Latte(Beverage beverage)
 	{
-		beverage = beverage;
+		this.beverage = beverage;
 		description = "Latte";
 	}
 
-	public double cost(){
+	public double cost()
+	{
 
-		return beverage.cost() + 10.0;
-
+		return  3.0+ beverage.cost();
 	}
 	
 }

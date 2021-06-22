@@ -1,14 +1,16 @@
 class MobileDisplay implements Observer
 {
-	 public float  haze;
+	 public float haze;
 	 public float temperature;
 	 public float humidity;
+
 
 	public MobileDisplay(Subject weatherData)
 	{
 		weatherData.registerObserver(this);
 
 	}
+	
 
 	public void update(float haze,float emperature, float humidity){
 

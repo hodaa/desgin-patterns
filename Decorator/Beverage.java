@@ -1,6 +1,6 @@
 public abstract class Beverage
 { 
-	String description = "no name";
+	String description = "No name";
 
 	public abstract double cost();
 

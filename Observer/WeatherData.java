@@ -12,7 +12,7 @@ public class WeatherData implements Subject
 
 	 public WeatherData()
 	 {
-	 	observers = new  ArrayList<Observer>();
+	 	observers =  new  ArrayList<Observer>();
 	
 	 }
 
@@ -22,6 +22,7 @@ public class WeatherData implements Subject
 	 	this.haze= haze;
 		this.temperature = temperature;
 		this.humidity =humidity;
+
 		this.notifyObserver();
 
 
