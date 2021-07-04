@@ -11,7 +11,7 @@ public class LightOnCommand implements Command
 
 	public void excute()
 	{
-	   light.onMe();
+	   light.on();
 	}
 	
 	public void undo()

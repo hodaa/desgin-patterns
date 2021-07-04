@@ -5,7 +5,7 @@ class GarageDoorCommand implements Command
 		System.out.println("The door is up");
 	}
 
-	public void up()
+	public void down()
 	{
 		System.out.println("The door is Down");
 	}

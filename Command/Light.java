@@ -1,10 +1,10 @@
-public class Light
-{
+public class Light  implements Reciver
+{ 
 
 	public  boolean onLight = false; 
 
 
-	public void onMe()
+	public void on()
 	{
  		this.onLight = true;
  	    System.out.println("The light is On");

@@ -10,12 +10,13 @@ class LightOffCommand implements Command
 	}
 	public void excute()
 	{
+	   light.on();
+	}
+
+	public void undo()
+	{
 	   light.off();
 	}
 
-	public void excute()
-	{
-	   light.onMe();
-	}
 	
 }
