@@ -3,6 +3,7 @@ public class Singletone
 	private Singletone(){};
 
 	private static Singletone uniqueInstance;
+
 	//private static Singletone uniqueInstance=  new Singletone(); //eager loading
 
 	public static synchronized Singletone getInstance()
@@ -16,5 +17,8 @@ public class Singletone
 		
 
 	}
+	 public void  printMe(){
+		 System.out.println("I am singletone class");
+	 }
 
 }
